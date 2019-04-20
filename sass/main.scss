@@ -10,33 +10,6 @@
 @import "components/button";
 
 @import "layout/header";
+@import "layout/grid";
 
 @import "pages/home";
-
-.heading-primary {
-	color: $color-white;
-	text-transform: uppercase;
-
-	backface-visibility: hidden;
-	margin-bottom: 6rem;
-
-	&--main {
-		display: block;
-		font-size: 6rem;
-		font-weight: 400;
-		letter-spacing: 3.5rem;
-
-		animation-name: moveInLeft;
-		animation-duration: 1s;
-		animation-timing-function: ease-out;
-		/* animation-iteration-count: 3; */
-		/* animation-delay: 1s; */
-	}
-	&--sub {
-		display: block;
-		font-size: 2rem;
-		font-weight: 400;
-		letter-spacing: 1.75rem;
-		animation: moveInRight 1s ease-out;
-	}
-}
